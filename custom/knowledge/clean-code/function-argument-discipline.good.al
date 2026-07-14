@@ -1,4 +1,4 @@
-// CC001 - a single record carries related values; no flag arguments
+// A single record carries related values; no flag arguments
 procedure PostSalesDocument(var SalesHeader: Record "Sales Header")
 begin
     ValidateSalesHeader(SalesHeader);

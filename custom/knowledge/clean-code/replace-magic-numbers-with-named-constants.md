@@ -11,7 +11,7 @@ application-area: [all]
 
 ## Description
 
-A literal number or string embedded in business logic hides its meaning: `if OutstandingAmount > 100000` says nothing about *why* 100000 matters, and `Amount * 0.15` could be a discount, a VAT rate, or a fee. Named constants (a `const`, a `Label`, or an enum value) make the business rule explicit and give a single place to change it. This is Clean Code guideline CC010. The values `0`, `1`, `-1`, `''`, `true`, and `false` are acceptable as-is.
+A literal number or string embedded in business logic hides its meaning: `if OutstandingAmount > 100000` says nothing about *why* 100000 matters, and `Amount * 0.15` could be a discount, a VAT rate, or a fee. Named constants (a `const`, a `Label`, or an enum value) make the business rule explicit and give a single place to change it. The values `0`, `1`, `-1`, `''`, `true`, and `false` are acceptable as-is.
 
 ## Best Practice
 

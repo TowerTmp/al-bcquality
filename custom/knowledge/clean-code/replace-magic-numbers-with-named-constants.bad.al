@@ -1,4 +1,4 @@
-// CC010 - magic number and inline message; meaning is lost
+// Magic number and inline message; meaning is lost
 procedure ValidateCreditLimit(CustomerNo: Code[20]; OutstandingAmount: Decimal)
 begin
     if OutstandingAmount > 100000 then // what is 100000?

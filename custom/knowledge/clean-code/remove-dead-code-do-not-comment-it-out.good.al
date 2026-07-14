@@ -1,4 +1,4 @@
-// CC009 - only declare a trigger that does something
+// Only declare a trigger that does something
 trigger OnInsert()
 begin
     Validate("Posting Date", WorkDate());

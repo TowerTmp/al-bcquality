@@ -11,7 +11,7 @@ application-area: [all]
 
 ## Description
 
-Dead code — commented-out blocks, empty triggers, unreachable statements after an unconditional `Error`/`exit`, and public procedures that are never called and carry no event attribute — adds noise and misleads the next reader. Version control already preserves history, so the source file should contain only live code. This is Clean Code guideline CC010 (Ekko CC009), scoped to what the compiler does *not* flag: the AL analyzers already catch unused variables (AA0137) and unused local methods (AA0228), so this rule targets the residue they miss.
+Dead code — commented-out blocks, empty triggers, unreachable statements after an unconditional `Error`/`exit`, and public procedures that are never called and carry no event attribute — adds noise and misleads the next reader. Version control already preserves history, so the source file should contain only live code. It is scoped to what the compiler does *not* flag: the AL analyzers already catch unused variables (AA0137) and unused local methods (AA0228), so this rule targets the residue they miss.
 
 ## Best Practice
 

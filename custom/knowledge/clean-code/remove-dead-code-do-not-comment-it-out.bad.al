@@ -1,4 +1,4 @@
-// CC009 - empty triggers add noise
+// Empty triggers add noise
 trigger OnModify()
 begin
     // TODO: add validation

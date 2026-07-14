@@ -11,7 +11,7 @@ application-area: [all]
 
 ## Description
 
-A procedure with more than three or four parameters is usually doing too much, and a boolean parameter that switches behaviour means the procedure really has two responsibilities hidden behind one name. Long parameter lists are hard to read at the call site and easy to mis-order; flag arguments hide a branch the caller cannot see from the signature. This is Clean Code guideline CC001, adapted for AL.
+A procedure with more than three or four parameters is usually doing too much, and a boolean parameter that switches behaviour means the procedure really has two responsibilities hidden behind one name. Long parameter lists are hard to read at the call site and easy to mis-order; flag arguments hide a branch the caller cannot see from the signature.
 
 ## Best Practice
 
